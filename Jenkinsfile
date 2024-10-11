@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        Docker_tag = ''  // Initialize the Docker_tag variable
+        Docker_tag = ''
     }
     
     stages {
